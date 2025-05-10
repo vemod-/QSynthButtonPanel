@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Aluminium Verde Tile.bmp</file>
+        <file>Brushed Aluminium 3 Tile.bmp</file>
+        <file>Brushed Aluminium Tile.bmp</file>
+        <file>Sky Aluminium Tile.bmp</file>
+        <file>Stainless Aluminium Tile.bmp</file>
+    </qresource>
+</RCC>
