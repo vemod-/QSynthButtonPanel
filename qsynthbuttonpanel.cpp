@@ -1,14 +1,13 @@
 #include "qsynthbuttonpanel.h"
 #include "ui_qsynthbuttonpanel.h"
 #include "cresourceinitializer.h"
+//#include "qdprpixmap.h"
 
 QSynthButtonPanel::QSynthButtonPanel(QWidget *parent) :
-    QFrame(parent),
+    QSynthPanel(parent),
     ui(new Ui::QSynthButtonPanel)
 {
-    CResourceInitializer::initializeResources();
     ui->setupUi(this);
-    setStyleSheet("QSynthButtonPanel{background-image: url(:/Brushed Aluminium Tile.bmp);border:1px solid #AAAAAA;border-style:outset;border-radius:8px;}");
     connect(ui->upButton,&QAbstractButton::clicked,this,&QSynthButtonPanel::upButtonPress);
     connect(ui->downButton,&QAbstractButton::clicked,this,&QSynthButtonPanel::downButtonPress);
 }

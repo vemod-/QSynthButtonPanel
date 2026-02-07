@@ -4,12 +4,13 @@
 #include "qtogglebutton.h"
 #include <QFrame>
 #include <QString>
+#include "qsynthpanel.h"
 
 namespace Ui {
 class QSynthButtonPanel;
 }
 
-class QSynthButtonPanel : public QFrame
+class QSynthButtonPanel : public QSynthPanel
 {
     Q_OBJECT
 
